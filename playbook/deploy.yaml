@@ -1,3 +1,4 @@
 - hosts: local
+  become: true
   roles:
     - roles/deploy
