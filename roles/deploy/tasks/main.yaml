@@ -1,0 +1,11 @@
+- name: create setting directory
+  file:
+    path: "../ansible-example-setting"
+    state: directory
+    owner: root
+    group: root
+    mode: 775
+- name: copy setting_override.py
+  template:
+    src: setting_override.py.j2
+    dest: ../ansible-example-setting/setting_override.py
