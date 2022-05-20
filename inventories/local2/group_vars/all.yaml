@@ -1,6 +1,6 @@
 logging:
   handler: |-
     {
-      "hoge": "ほげ2"
+      "hoge": "ほげ2",
       "fuga": "ふが2"
     }
